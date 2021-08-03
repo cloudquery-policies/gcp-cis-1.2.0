@@ -2,7 +2,7 @@ policy "cis-v1.30" {
   description = "GCP CIS V1.30 Policy"
   configuration {
     provider "gcp" {
-      version = ">= 0.3.3"
+      version = ">= 0.4.0"
     }
   }
 
