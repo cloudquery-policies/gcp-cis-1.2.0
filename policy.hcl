@@ -69,7 +69,7 @@ policy "cis-v1.30" {
     query "1.7" {
       description = "GCP CIS 1.7 Ensure user-managed/external keys for service accounts are rotated every 90 days or less (Automated)"
       query = <<EOF
-      SELECT project_id , gisa.unique_id AS "account_id", gisak.name AS "key_name", gisak.valid_after_time
+      SELECT project_id , gisa.id AS "account_id", gisak.name AS "key_name", gisak.valid_after_time
       FROM gcp_iam_service_accounts gisa
       JOIN gcp_iam_service_account_keys gisak ON
       gisa.cq_id = gisak.service_account_cq_id
