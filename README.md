@@ -1,3 +1,5 @@
+New GCP Security & Compliance blog - https://github.com/cloudquery-policies/gcp
+
 # GCP CIS 1.2.0 CloudQuery Policy
 
 [CloudQuery](https://github.com/cloudquery/cloudquery) [Policy Pack](https://docs.cloudquery.io/cli/policy) to Run [GCP CIS 1.20 benchmark](https://www.cisecurity.org/blog/new-cis-benchmark-for-google-cloud-computing-platform/) against CQ local database or SaaS version.
