@@ -11,7 +11,7 @@ policy "cis-v1.30" {
 
     query "1" {
       description = "deprecation notice"
-      query = "select 'The GCP-CIS-1.3.0 policy is deprecated. please use the aws pack instead: https://github.com/cloudquery-policies/gcp, or run cloudquery policy run gcp//cis_v1.2.0' as notice;"
+      query = "select 'The GCP-CIS-1.3.0 policy is deprecated. please use the gcp pack instead: https://github.com/cloudquery-policies/gcp, or run cloudquery policy run gcp//cis_v1.2.0' as notice;"
     }
   }
 }
